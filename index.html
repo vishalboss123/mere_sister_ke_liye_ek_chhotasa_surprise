@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#120b1d">
+<meta name="description" content="A magical birthday journey made with love for Kajal Didi.">
+<title>For Kajal Didi — A Birthday Journey ✨</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="rainCanvas" aria-hidden="true"></canvas>
+<div class="aurora aurora-a"></div><div class="aurora aurora-b"></div>
+<div class="noise"></div>
+
+<header class="topbar">
+  <div class="brand"><span class="brand-icon">K</span><span>KAJAL <i>♡</i> BIRTHDAY</span></div>
+  <div class="top-progress"><span id="pageCounter">01 <b>/</b> 10</span><div class="progress-track"><span id="progressFill"></span></div></div>
+  <button class="sound-toggle" id="soundToggle" aria-label="Toggle music">♫ <span id="soundText">SOUND OFF</span></button>
+</header>
+
+<main id="presentation">
+  <!-- 1: Welcome -->
+  <section class="page active page-welcome" data-page="0">
+    <div class="page-content hero-content">
+      <div class="pill"><span class="pulse-dot"></span> A SURPRISE MADE WITH LOVE</div>
+      <div class="hero-flower">✿</div>
+      <p class="eyebrow">TODAY, THE STARS CELEBRATE YOU</p>
+      <h1 class="hero-title">Happy Birthday<br><em>Kajal Didi</em></h1>
+      <p class="hero-subtitle">Meri pyaari badi behen ke liye,<br>ek chhoti si magical duniya… 💗</p>
+      <button class="main-btn" data-next>ENTER THE SURPRISE <span>↗</span></button>
+      <div class="tiny-note">CREATED WITH LOVE BY YOUR LITTLE BROTHER</div>
+      <div class="scroll-cue">A BEAUTIFUL JOURNEY AWAITS <span>↓</span></div>
+    </div>
+    <span class="floating-stamp stamp-left">✧</span><span class="floating-stamp stamp-right">♡</span>
+  </section>
+
+  <!-- 2: Letter -->
+  <section class="page page-letter" data-page="1">
+    <div class="page-content narrow">
+      <div class="chapter">CHAPTER 01 <span>— A LETTER FROM YOUR BROTHER</span></div>
+      <div class="mini-icon">💌</div>
+      <h2 class="page-title">Ek chhoti si <em>chitthi</em></h2>
+      <p class="intro">Kajal Didi, kuch baatein hain jo shayad main roz nahi keh pata…</p>
+      <article class="letter-paper">
+        <div class="paper-top">TO MY DEAREST SISTER <span>♡</span></div>
+        <p class="hindi-text">मेरी प्यारी काजल दीदी,<br><br>
+        आप मेरी जिंदगी के उन खास लोगों में से हो, जिनकी मौजूदगी से हर दिन थोड़ा और खूबसूरत बन जाता है। कभी आपकी बातें हिम्मत देती हैं, कभी आपकी हँसी चेहरे पर मुस्कान ले आती है।<br><br>
+        मैं छोटा हूँ, इसलिए शायद हर बार अपने दिल की बात सही तरह से कह नहीं पाता। लेकिन आज बस इतना कहना चाहता हूँ कि आप मेरे लिए बहुत अनमोल हो। आपका साथ, आपका प्यार और आपकी छोटी-छोटी सीख मेरे लिए हमेशा खास रहेंगी।<br><br>
+        हमेशा खुश रहना, दीदी। आपकी हर सुबह उम्मीद लेकर आए और हर रात सुकून।</p>
+        <div class="paper-sign">आपका छोटा भाई <b>♡</b></div>
+      </article>
+      <button class="main-btn" data-next>READ MY SHAYARI <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 3: Shayari -->
+  <section class="page page-poetry" data-page="2">
+    <div class="page-content narrow">
+      <div class="chapter">CHAPTER 02 <span>— WORDS FROM THE HEART</span></div>
+      <div class="mini-icon">🌷</div>
+      <h2 class="page-title">Aapke liye <em>shayari</em></h2>
+      <div class="poetry-card">
+        <div class="quote-mark">“</div>
+        <p class="hindi-text poetry-text">
+          रिश्ते तो बहुत मिलते हैं इस खूबसूरत दुनिया में,<br>
+          पर बहन जैसा अनमोल तोहफा हर किसी को नहीं मिलता।<br>
+          कभी प्यार से समझाना, कभी छोटी-सी डाँट लगाना,<br>
+          आपके बिना घर का हर कोना अधूरा-सा लगता।<br><br>
+          आपकी हँसी से घर में रौनक आ जाती है,<br>
+          आपकी खुशी से मेरी भी दुनिया मुस्कुराती है।<br>
+          आप चाहे कितनी भी दूर क्यों न चली जाओ,<br>
+          मेरे दिल में आपकी जगह हमेशा सबसे खास रहती है।<br><br>
+          मैं छोटा हूँ, इसलिए हर बात कह नहीं पाता,<br>
+          हर बार अपने दिल का प्यार जता नहीं पाता।<br>
+          बस इतनी-सी दुआ हर पल करता हूँ,<br>
+          आपकी जिंदगी में कोई गम ठहर न पाए।<br><br>
+          आपके हर सपने को खूबसूरत उड़ान मिले,<br>
+          हर मेहनत को उसकी सही पहचान मिले।<br>
+          चेहरे पर मुस्कान और दिल में सुकून रहे,<br>
+          आपको हर वो खुशी मिले जो आपके दिल के करीब रहे।
+        </p>
+        <div class="poetry-end">काजल दीदी, आप हमेशा मुस्कुराती रहना। <span>✦</span></div>
+      </div>
+      <button class="main-btn" data-next>UNLOCK YOUR WISHES <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 4: Wishes -->
+  <section class="page page-wishes" data-page="3">
+    <div class="page-content wide">
+      <div class="chapter">CHAPTER 03 <span>— FOUR LITTLE PRAYERS</span></div>
+      <div class="mini-icon">✨</div>
+      <h2 class="page-title">Aapke naam <em>duayein</em></h2>
+      <p class="intro">Dil se nikli har dua, sirf aapke liye.</p>
+      <div class="wish-grid">
+        <article class="wish-card wish-pink"><span>🌸</span><h3>Khushiyan</h3><p>Aapki zindagi ka har din hasi, pyaar aur khoobsurat lamhon se bhara rahe.</p><small>01 / JOY</small></article>
+        <article class="wish-card wish-purple"><span>🦋</span><h3>Kamyabi</h3><p>Aapke har sapne ko pankh milein aur aap har manzil fakhr se paayein.</p><small>02 / SUCCESS</small></article>
+        <article class="wish-card wish-gold"><span>💜</span><h3>Sehat & Sukoon</h3><p>Aap hamesha healthy, safe aur apno ke pyaar ke beech muskurati raho.</p><small>03 / WELLNESS</small></article>
+        <article class="wish-card wish-rose"><span>👑</span><h3>Pyaar & Izzat</h3><p>Aapko duniya bhar ka pyaar, respect aur woh sab mile jo aap deserve karti ho.</p><small>04 / LOVE</small></article>
+      </div>
+      <button class="main-btn" data-next>VISIT YOUR PHOTO GALLERY <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 5: Photo -->
+  <section class="page page-photo" data-page="4">
+    <div class="page-content wide photo-layout">
+      <div class="chapter">CHAPTER 04 <span>— THE STAR OF TODAY</span></div>
+      <div class="mini-icon">📸</div>
+      <h2 class="page-title">Aaj ki <em>birthday queen</em></h2>
+      <p class="intro">Yeh frame Kajal Didi ki photo ke liye hai. Apni photo <b>assets/kajal.jpg</b> naam se upload karna.</p>
+      <div class="portrait-wrap">
+        <div class="portrait-frame">
+          <div class="portrait-inner">
+            <img src="assets/kajal.jpg" alt="Kajal Didi" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+            <div class="photo-placeholder" hidden><span>♡</span><b>Kajal Didi</b><small>YOUR PHOTO GOES HERE</small><i>assets/kajal.jpg</i></div>
+          </div>
+        </div>
+        <span class="photo-spark spark-a">✦</span><span class="photo-spark spark-b">✧</span><span class="photo-spark spark-c">♡</span>
+      </div>
+      <p class="photo-caption">A beautiful face, a priceless bond. 💗</p>
+      <button class="main-btn" data-next>SEE OUR LITTLE MEMORY WALL <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 6: Memory wall -->
+  <section class="page page-memories" data-page="5">
+    <div class="page-content wide">
+      <div class="chapter">CHAPTER 05 <span>— LITTLE THINGS, BIG LOVE</span></div>
+      <div class="mini-icon">🧸</div>
+      <h2 class="page-title">Our little <em>memory wall</em></h2>
+      <p class="intro">Kuch khaas lamhe aur kuch baatein, jo hamesha yaad rahengi.</p>
+      <div class="memory-grid">
+        <div class="memory-card"><span>🌼</span><b>Her Smile</b><p>Jab aap hasti ho, ghar ka mahaul hi badal jaata hai.</p></div>
+        <div class="memory-card"><span>🎀</span><b>Her Care</b><p>Aapki chhoti-chhoti fikr bhi bahut bada pyaar hoti hai.</p></div>
+        <div class="memory-card"><span>🌙</span><b>Her Advice</b><p>Kabhi-kabhi aapki ek baat bahut kuch sikha deti hai.</p></div>
+        <div class="memory-card"><span>💫</span><b>Our Bond</b><p>Thodi nok-jhok, dher saara pyaar — bas yahi apni story hai.</p></div>
+      </div>
+      <button class="main-btn" data-next>ONE FUN PAGE AHEAD <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 7: Fun -->
+  <section class="page page-fun" data-page="6">
+    <div class="page-content narrow">
+      <div class="chapter">CHAPTER 06 <span>— A LITTLE FUN</span></div>
+      <div class="mini-icon">😄</div>
+      <h2 class="page-title">Officially the <em>best Didi</em></h2>
+      <p class="intro">Aaj ke din ek important announcement karna zaroori hai…</p>
+      <div class="award-card">
+        <div class="award-stars">✦ ✧ ✦</div>
+        <div class="award-cup">🏆</div>
+        <p class="award-label">THIS AWARD GOES TO</p>
+        <h3>KAJAL DIDI</h3>
+        <p class="award-for">World's Special Sister<br>Best Guide • Best Smile • Best Didi</p>
+        <div class="award-ribbon">CERTIFIED BY YOUR LITTLE BROTHER</div>
+      </div>
+      <p class="fun-line">P.S. Aap mujhe daant sakti ho… par birthday par nahi! 😜</p>
+      <button class="main-btn" data-next>OPEN YOUR BIRTHDAY CAKE <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 8: Cake -->
+  <section class="page page-cake" data-page="7">
+    <div class="page-content narrow">
+      <div class="chapter">CHAPTER 07 <span>— MAKE A WISH</span></div>
+      <div class="mini-icon">🕯️</div>
+      <h2 class="page-title">Make a <em>wish, Didi</em></h2>
+      <p class="intro">Aankhein band karke ek pyaari si wish maango… phir candle par tap karo.</p>
+      <button class="cake-button" id="candleButton" aria-label="Blow out the birthday candle">
+        <div class="cake-scene">
+          <div class="flame" id="flame">✦</div><div class="candle"></div>
+          <div class="cake-top"></div><div class="cake-body"><span>HAPPY</span><b>♡</b><span>BIRTHDAY</span></div>
+          <div class="cake-plate"></div>
+        </div>
+        <small id="candleHint">TAP TO MAKE YOUR WISH ✨</small>
+      </button>
+      <p class="cake-message" id="cakeMessage" aria-live="polite"></p>
+      <button class="main-btn" data-next>ONE LAST MESSAGE <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 9: Promise -->
+  <section class="page page-promise" data-page="8">
+    <div class="page-content narrow">
+      <div class="chapter">CHAPTER 08 <span>— A LITTLE PROMISE</span></div>
+      <div class="mini-icon">🤝</div>
+      <h2 class="page-title">From your <em>little brother</em></h2>
+      <div class="promise-card">
+        <div class="promise-heart">♡</div>
+        <p class="hindi-text">मैं हमेशा आपका छोटा भाई रहूँगा — कभी आपको हँसाऊँगा, कभी थोड़ा परेशान करूँगा, लेकिन आपके लिए दिल में प्यार और इज़्ज़त हमेशा रहेगी।<br><br>आपके अच्छे दिनों में आपके साथ खुश होऊँगा और मुश्किल दिनों में आपका हौसला बनूँगा। हमारी छोटी-छोटी नोक-झोंक चलती रहे, पर अपना ये प्यारा रिश्ता हमेशा यूँ ही बना रहे।</p>
+        <div class="promise-sign">YOUR LITTLE BROTHER, ALWAYS <span>♡</span></div>
+      </div>
+      <button class="main-btn" data-next>REVEAL THE FINAL SURPRISE <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- 10: Finale -->
+  <section class="page page-final" data-page="9">
+    <div class="page-content final-content">
+      <div class="final-halo"></div>
+      <div class="pill"><span class="pulse-dot"></span> THE CELEBRATION IS YOURS</div>
+      <div class="final-emojis">🎂 💗 ✨</div>
+      <p class="eyebrow">A THOUSAND SMILES FOR YOU</p>
+      <h2 class="final-title">Happy Birthday<br><em>Kajal Didi!</em></h2>
+      <div class="final-message">
+        Aap mujhse badi ho, meri guide bhi ho,<br>
+        kabhi meri teacher, kabhi meri best friend bhi ho.<br>
+        Main aapko tang karta rahunga,<br>
+        aur aap mujhe daantti rehna! 😄<br><br>
+        Bas hamesha aise hi muskurate rehna.<br>
+        Aapka chhota bhai aapse bahut pyaar karta hai.
+      </div>
+      <div class="final-sign">LOTS OF LOVE & RESPECT <span>♡</span></div>
+      <button class="main-btn gold-btn" id="celebrateButton">LET THE MAGIC BEGIN ✨</button>
+      <button class="replay-btn" id="replayButton">↺ WATCH THE SURPRISE AGAIN</button>
+    </div>
+  </section>
+</main>
+
+<div class="bottom-bar"><span id="bottomText">A LITTLE MAGIC IS WAITING ON THE NEXT PAGE</span><span class="bottom-star">✦</span></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
